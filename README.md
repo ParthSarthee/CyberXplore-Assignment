@@ -1,5 +1,9 @@
 # File Scanner Application
 
+## 🎥 Demo Video
+
+[Watch the application demonstration](https://youtu.be/j2oGBOlSL_U)
+
 A full-stack MERN (MongoDB, Express.js, React, Node.js) application that allows users to upload files and scan them for potentially dangerous content. The application uses a queue-based architecture for processing files asynchronously with a modern, responsive web interface.
 
 ## Tech Stack

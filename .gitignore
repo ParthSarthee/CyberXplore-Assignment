@@ -203,3 +203,4 @@ cyberxplore-backend/uploads/*
 # Dockerfile
 # docker-compose.yml
 # .dockerignore
+cyberxplore-backend/cyberxplore-backend.code-workspace
