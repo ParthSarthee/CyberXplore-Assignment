@@ -74,7 +74,7 @@ const worker = new Worker(
 			host: process.env.REDIS_HOST || "localhost",
 			port: parseInt(process.env.REDIS_PORT || "6379"),
 		},
-		concurrency: 2, // Process up to 5 files simultaneously
+		concurrency: 2, // Process up to 2 files simultaneously
 		removeOnComplete: { count: 100 }, // Keep last 100 completed jobs
 		removeOnFail: { count: 100 }, // Keep last 100 failed jobs
 	}
